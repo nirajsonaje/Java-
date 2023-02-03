@@ -47,8 +47,7 @@ class GFG {
 	// Main driver method
 	public static void main(String[] args)
 	{
-		Student[] arr
-			= { new Student(111, "bbbb", "london"),
+		Student[] arr= { new Student(111, "bbbb", "london"),
 				new Student(131, "aaaa", "nyc"),
 				new Student(121, "cccc", "jaipur") };
 
