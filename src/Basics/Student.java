@@ -37,32 +37,15 @@ class Sortbyroll implements Comparator<Student> {
 	public int compare(Student a, Student b)
 	{
 		return a.rollno - b.rollno;
+	}}
+	class Sortbyname implements Comparator<Student> {
+		 
+	    // Method
+	    // Sorting in ascending order of name
+	    public int compare(Student a, Student b)
+	    {
+	 
+	        return a.name.compareTo(b.name);
+	    }
 	}
-}
-
-// Class 3
-// Main class
-class GFG {
-
-	// Main driver method
-	public static void main(String[] args)
-	{
-		Student[] arr= { new Student(111, "bbbb", "london"),
-				new Student(131, "aaaa", "nyc"),
-				new Student(121, "cccc", "jaipur") };
-
-		System.out.println("Unsorted");
-
-		for (int i = 0; i < arr.length; i++)
-			System.out.println(arr[i]);
-
-		// Sorting on basic as per class 1 created
-		// (user-defined)
-		Arrays.sort(arr, new Sortbyroll());
-
-		System.out.println("\nSorted by rollno");
-
-		for (int i = 0; i < arr.length; i++)
-			System.out.println(arr[i]);
-	}
-}
+	 
