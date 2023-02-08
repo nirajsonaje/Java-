@@ -1,4 +1,5 @@
 package ParallelStream;
+
 import java.util.List;
 
 //Evaluate average salary of employees
@@ -19,8 +20,6 @@ public class Parallel_Stream_Example {
 		System.out.println("Plain Stream takes time: " + (end - start) + " ms.");
 		// Plain Stream takes time: 165 ms.
 
-		
-		
 		long start1 = System.currentTimeMillis();
 		double averageSalaryWithParallelStream = employees.parallelStream().map(Employee::getSalary).mapToDouble(i -> i)
 				.average().getAsDouble();

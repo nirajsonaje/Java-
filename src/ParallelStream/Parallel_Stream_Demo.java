@@ -1,4 +1,5 @@
 package ParallelStream;
+
 import java.util.stream.IntStream;
 
 /**
