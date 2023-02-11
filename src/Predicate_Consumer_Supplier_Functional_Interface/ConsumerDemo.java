@@ -1,4 +1,5 @@
 package Predicate_Consumer_Supplier_Functional_Interface;
+
 import java.util.function.Consumer;
 
 /**
