@@ -1,4 +1,5 @@
 package Encapsulation;
+
 // Java program to demonstrate encapsulation
 class Encapsulate {
 	// private variables declared
@@ -10,35 +11,43 @@ class Encapsulate {
 
 	// get method for age to access
 	// private variable geekAge
-	public int getAge() { return geekAge; }
+	public int getAge() {
+		return geekAge;
+	}
 
 	// get method for name to access
 	// private variable geekName
-	public String getName() { return geekName; }
+	public String getName() {
+		return geekName;
+	}
 
 	// get method for roll to access
 	// private variable geekRoll
-	public int getRoll() { return geekRoll; }
+	public int getRoll() {
+		return geekRoll;
+	}
 
 	// set method for age to access
 	// private variable geekage
-	public void setAge(int newAge) { geekAge = newAge; }
+	public void setAge(int newAge) {
+		geekAge = newAge;
+	}
 
 	// set method for name to access
 	// private variable geekName
-	public void setName(String newName)
-	{
+	public void setName(String newName) {
 		geekName = newName;
 	}
 
 	// set method for roll to access
 	// private variable geekRoll
-	public void setRoll(int newRoll) { geekRoll = newRoll; }
+	public void setRoll(int newRoll) {
+		geekRoll = newRoll;
+	}
 }
 
 public class TestEncapsulation {
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Encapsulate obj = new Encapsulate();
 
 		// setting values of the variables
