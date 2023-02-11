@@ -1,4 +1,5 @@
 package Object_Class;
+
 class Complex1 {
 
 	private double re, im;
@@ -17,18 +18,19 @@ class Complex1 {
 			return true;
 		}
 
-		/* Check if o is an instance of Complex1 or not
-		"null instanceof [type]" also returns false */
+		/*
+		 * Check if o is an instance of Complex1 or not "null instanceof [type]" also
+		 * returns false
+		 */
 		if (!(o instanceof Complex)) {
 			return false;
 		}
-		
+
 		// typecast o to Complex1 so that we can compare data members
 		Complex1 c = (Complex1) o;
-		
+
 		// Compare the data members and return accordingly
-		return Double.compare(re, c.re) == 0
-				&& Double.compare(im, c.im) == 0;
+		return Double.compare(re, c.re) == 0 && Double.compare(im, c.im) == 0;
 	}
 }
 

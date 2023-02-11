@@ -1,7 +1,7 @@
 package Object_Class;
+
 public class Test1 {
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Test1 t = new Test1();
 		System.out.println(t.hashCode());
 
@@ -13,8 +13,8 @@ public class Test1 {
 		System.out.println("end");
 	}
 
-	@Override protected void finalize()
-	{
+	@Override
+	protected void finalize() {
 		System.out.println("finalize method called");
 	}
 }
