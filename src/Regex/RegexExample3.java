@@ -1,4 +1,4 @@
-package JAVAREGEX;
+package Regex;
 import java.util.regex.*;  
 class RegexExample3{  
 public static void main(String args[]){  

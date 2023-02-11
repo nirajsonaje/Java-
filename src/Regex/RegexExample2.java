@@ -1,4 +1,4 @@
-package JAVAREGEX;
+package Regex;
 
 import java.util.regex.*;
 

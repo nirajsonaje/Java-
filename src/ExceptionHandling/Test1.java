@@ -1,16 +1,17 @@
+package ExceptionHandling;
+
 //program to print the exception information using toString() method
 
 import java.io.*;
 
 class Test1 {
-	public static void main (String[] args) {
-	int a=5;
-	int b=0;
-		try{
-		System.out.println(a/b);
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 0;
+		try {
+			System.out.println(a / b);
+		} catch (ArithmeticException e) {
+			System.out.println(e.toString());
 		}
-	catch(ArithmeticException e){
-		System.out.println(e.toString());
-	}
 	}
 }

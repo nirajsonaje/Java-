@@ -1,4 +1,4 @@
-package JAVAREGEX;
+package Regex;
 /*Create a regular expression that accepts 10 digit numeric characters 
  starting with 7, 8 or 9 only.*/  
   

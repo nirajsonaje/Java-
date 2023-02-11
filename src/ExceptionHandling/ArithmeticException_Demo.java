@@ -1,3 +1,4 @@
+package ExceptionHandling;
 // Java program to demonstrate ArithmeticException
 class ArithmeticException_Demo
 {

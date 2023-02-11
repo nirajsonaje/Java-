@@ -1,16 +1,17 @@
+package ExceptionHandling;
+
 //program to print the exception information using printStackTrace() method
 
 import java.io.*;
 
 class Test {
-	public static void main (String[] args) {
-	int a=5;
-	int b=0;
-		try{
-		System.out.println(a/b);
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 0;
+		try {
+			System.out.println(a / b);
+		} catch (ArithmeticException e) {
+			e.printStackTrace();
 		}
-	catch(ArithmeticException e){
-		e.printStackTrace();
-	}
 	}
 }
