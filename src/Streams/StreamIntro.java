@@ -1,3 +1,5 @@
+package Streams;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -21,14 +23,13 @@ public class StreamIntro {
 		stream1.forEach(n1 -> {
 			System.out.println(n1);
 		});
-		
-		//From a generator function
+
+		// From a generator function
 		Stream<Double> randomNumbers = Stream.generate(Math::random);
 		randomNumbers.limit(5).forEach(n1 -> {
 			System.out.println(n1);
 		});
-		
-		
+
 		// From values
 		Stream<Integer> stream2 = Stream.of(1, 2, 3, 4, 5);
 		stream2.forEach(n1 -> {
